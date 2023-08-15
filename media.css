@@ -1,0 +1,79 @@
+@media(max-with: 1150px) {
+    .products .wrapper{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 1050px) {
+    .season{
+        flex-wrap: wrap;
+        
+    }
+    
+    .season .right,
+    .season .left{
+        width: 100%;
+    }
+    
+    .season .right{
+        padding-top: 100px;
+    }
+    
+    .brands .wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 900px) {
+    .collect{
+        flex-wrap: wrap;
+    }
+    
+    .collect .text-content,
+    .collect .image{
+        width: 100%;
+    }
+    
+    .collect .image{
+        height: 500px;
+        order: 1;
+    }
+    
+    footer .container{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 760px) {
+    .header .top,
+    .header .navbar .menu{
+        display: none;
+    }
+    
+    .header .navbar .container{
+        padding: 10px 0;
+        justify-content: center;
+    }
+    
+    .hero .text{
+        width: auto;
+        max-width: 730px;
+    }
+    
+    .collect .text-content .text{
+        width: auto;
+        max-width: 470px;
+    }
+}
+
+.season .left{
+    padding: 50px 20px;
+}
+
+@media(max-width: 420px) {
+    width: 250px;
+    height: 250px;
+}
